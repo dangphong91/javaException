@@ -13,7 +13,7 @@ public class NumberFormatException {
             System.out.println("Tích: " + x + " * " + y + " = " + (x*y));
             System.out.println("Thương: " + x + " / " + y + " = " + (x/y));
         }
-        catch (Exception e) {
+        catch (ArithmeticException e) {
             System.out.println("Input lỗi" + e.getMessage());
         }
     }
