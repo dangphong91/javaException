@@ -15,7 +15,7 @@ public class ArrayIndexOutOfBoundsException {
             System.out.println(arr[index]);
         }
         catch (IndexOutOfBoundsException e) {
-            System.out.println("Vượt quá mảng !");
+            System.out.println("Vượt quá mảng! " + e.getMessage());
         }
     }
 }
